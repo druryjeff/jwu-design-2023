@@ -4,7 +4,7 @@ const studentsList = students.map(function(s){
 	return `
 		<div class="card" ${s.href==='#' ? `data-icon=${s.name.toLowerCase()}` : 'data-name' }>
 			<div class="image">
-			  <a href="${s.href}"><img src="img/${s.image}"></a>
+			  <a href="${s.href}"><img src="img/${s.image}" alt="${s.href} logo"></a>
 			</div>
 			<div class="text">
 			  ${s.href==='#' ? '' : `<h2>${s.name}</h2>`}
