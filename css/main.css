@@ -227,28 +227,47 @@ main h1 span {
 
 footer {
 	background-color: var(--color-purple);
-	padding: 1.25rem 5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	padding: 1.25rem 2.5rem;
+}
+
+@media screen and (min-width: 64em){
+	footer {
+		padding: 1.25rem 5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+footer p {
+	margin: 0 0 1rem;
+}
+
+@media screen and (min-width: 64em){
+	footer p {
+		margin: 0;
+	}
 }
 
 footer .copy {
 	color: var(--color-blue-light);
-	margin: 0;
 	font-size: 1.25rem;
 }
 
 footer .art {
-	position: fixed;
-	bottom: 1.25rem;
-	right: 1.25rem;
-	writing-mode: vertical-lr;
 	font-size: 1.25rem;
 	font-weight: 900;
-	margin: 0;
 	text-transform: uppercase;
 	line-height: 1;
+}
+
+@media screen and (min-width: 64em){
+	footer .art {
+		position: fixed;
+		bottom: 1.25rem;
+		right: 1.25rem;
+		writing-mode: vertical-lr;
+	}
 }
 
 footer .art span {
