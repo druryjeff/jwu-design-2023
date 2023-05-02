@@ -55,6 +55,11 @@ const students = [
 		href: 'https://www.kaitlynchabot.com/'
 	},
 	{
+		name: 'Chris Concepcion',
+		image: 'logo-chris.png',
+		href: 'https://www.kyladukesdesigns.com/'
+	},
+	{
 		name: 'Kyla Dukes',
 		image: 'logo-kyla.png',
 		href: 'https://www.kyladukesdesigns.com/'
@@ -65,14 +70,14 @@ const students = [
 		href: 'http://nicoralduncan.com/'
 	},
 	{
-		name: 'Kathryn Duranleau',
-		image: 'logo-kathryn.png',
-		href: 'https://kathrynduranleau.myportfolio.com/'
-	},
-	{
 		name: 'Rocket',
 		image: 'icon-rocket.png',
 		href: '#'
+	},
+	{
+		name: 'Kathryn Duranleau',
+		image: 'logo-kathryn.png',
+		href: 'https://kathrynduranleau.myportfolio.com/'
 	},
 	{
 		name: 'Kennedy Enderle',
@@ -90,14 +95,19 @@ const students = [
 		href: 'https://abbyfish.com/'
 	},
 	{
-		name: 'Lucia Gloria',
-		image: 'logo-lucia.png',
-		href: 'https://luciagloriadesign.com/'
-	},
-	{
 		name: 'Diamond',
 		image: 'icon-diamond.png',
 		href: '#'
+	},
+	{
+		name: 'Noah Fye',
+		image: 'logo-noah.png',
+		href: 'https://www.noahfye.com/'
+	},
+	{
+		name: 'Lucia Gloria',
+		image: 'logo-lucia.png',
+		href: 'https://luciagloriadesign.com/'
 	},
 	{
 		name: 'Evander Gomes',
@@ -110,9 +120,19 @@ const students = [
 		href: 'https://danhunterdzn.com/'
 	},
 	{
+		name: 'Star',
+		image: 'icon-star.png',
+		href: '#'
+	},
+	{
 		name: 'Emma Rose Jones',
 		image: 'logo-emma.png',
 		href: 'https://emmarosejonesdesign.com/'
+	},
+	{
+		name: 'Sophie Laurence',
+		image: 'logo-sophie.png',
+		href: 'https://seal-rose-ypft.squarespace.com/'
 	},
 	{
 		name: 'Mi\'ena Love',
@@ -120,8 +140,13 @@ const students = [
 		href: 'https://www.mienalove.me/'
 	},
 	{
-		name: 'Star',
-		image: 'icon-star.png',
+		name: 'Erika A. Morais',
+		image: 'logo-erika.png',
+		href: 'https://erikamorais.art/'
+	},
+	{
+		name: '2023',
+		image: 'icon-2023.png',
 		href: '#'
 	},
 	{
@@ -145,8 +170,8 @@ const students = [
 		href: 'https://chejonwisdom.com/'
 	},
 	{
-		name: '2023',
-		image: 'icon-2023.png',
+		name: 'Question Marks Box',
+		image: 'icon-box-quest.png',
 		href: '#'
 	},
 	{

@@ -5,6 +5,7 @@
 	--color-blue-light: #4ADBFF;
 	--color-purple: #8700B7;
 	--color-pink: #FF61C5;
+	--color-pale-pink: #EF4562;
 	--color-red: #FF4412;
 	--color-yellow: #FFAE00;
 }
@@ -194,6 +195,10 @@ main h1 span {
 	background-color: var(--color-blue-dark) !important;
 }
 
+.card[data-icon="question"] a {
+	background-color: var(--color-pale-pink) !important;
+}
+
 .card[data-icon="clapboard"] img {
 	width: 7.5rem;
 }
@@ -223,6 +228,13 @@ main h1 span {
 
 .card[data-icon="2023"] img {
 	width: 10rem;
+}
+
+.card[data-icon="question"] img {
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	object-fit: cover;
 }
 
 footer {
