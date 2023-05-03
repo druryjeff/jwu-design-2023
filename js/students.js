@@ -141,7 +141,7 @@ const students = [
 	},
 	{
 		name: 'Erika A. Morais',
-		image: 'logo-erika.png',
+		image: 'logo-erika-revised.png',
 		href: 'https://erikamorais.art/'
 	},
 	{
