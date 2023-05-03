@@ -12,6 +12,7 @@
 
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth !important;
 }
 
 body {
@@ -301,5 +302,6 @@ footer ul {
 }
 
 footer ul a {
-	color: var(--color-black);
+	color: var(--color-blue-light);
+	text-decoration: none;
 }
