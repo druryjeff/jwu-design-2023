@@ -17,6 +17,6 @@ const studentsList = students.map(function(s){
 const studentsEl = document.querySelector('.students');
 studentsEl.innerHTML = studentsList.join('');
 
-// // open links in new window
+// open links in new window
 const links = document.querySelectorAll('a[rel="external"]');
 links.forEach(l => l.setAttribute('target','_blank'));
