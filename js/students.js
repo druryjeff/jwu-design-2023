@@ -57,7 +57,7 @@ const students = [
 	{
 		name: 'Chris Concepcion',
 		image: 'logo-chris.png',
-		href: 'https://www.kyladukesdesigns.com/'
+		href: 'https://concepciondesigns.com/portfolio/'
 	},
 	{
 		name: 'Kyla Dukes',
